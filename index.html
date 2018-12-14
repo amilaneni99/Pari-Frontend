@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous"></head>
+    crossorigin="anonymous">
+    <link rel="shortcut icon" href="icon.ico" />
+</head>
 
 <body style="background-image: url(/Projects/Pari/bg.jpg)">
     <!--Navbar-->
@@ -36,6 +38,7 @@
     </ul>
 
     <div class="container">
+        
         <div>
             <div class="row">
                 <div>
@@ -98,6 +101,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        </div>
     </div>
 
     <div class="container" style="padding: 40px">
@@ -108,15 +113,15 @@
                 </div>
                 <div class="col s6">
                     <ul class="collapsible popout" data-collapsible="popout">
-                        <li class="active">
+                        <li class="">
                             <div class="collapsible-header"><i class="material-icons">payment</i>How to donate?</div>
-                            <div class="collapsible-body"><span>We accept donations through cash and relief materials</span></div>
+                            <div class="collapsible-body"><span>We accept donations through cash and relief materials<br><br></span></div>
                         </li>
                     </ul>
                 </div>
                 <div class="col s6">
                     <ul class="collapsible popout" data-collapsible="popout">
-                        <li class="active">
+                        <li class="">
                             <div class="collapsible-header"><i class="material-icons">security</i>How secure is the portal?</div>
                             <div class="collapsible-body"><span>All the donation are safely directed to the corresponding NGOs.We will provide with you with an acknowledgement</span></div>
                         </li>
@@ -124,7 +129,7 @@
                 </div>
                 <div class="col s6">
                     <ul class="collapsible popout" data-collapsible="popout">
-                        <li class="active">
+                        <li class="">
                             <div class="collapsible-header"><i class="fas fa-question"></i>How to request Relief Materials?</div>
                             <div class="collapsible-body"><span>You can request relif materials through our online portal or through messages</span></div>
                         </li>
@@ -132,7 +137,7 @@
                 </div>
                 <div class="col s6">
                     <ul class="collapsible popout" data-collapsible="popout">
-                        <li class="active">
+                        <li class="">
                             <div class="collapsible-header"><i class="material-icons">message</i>How to use the SMS feature?</div>
                             <div class="collapsible-body"><span>You can message us the requirements along with the location to the provided number </span></div>
                         </li>
@@ -140,7 +145,7 @@
                 </div>
                 <div class="col s6">
                     <ul class="collapsible popout" data-collapsible="popout">
-                        <li class="active">
+                        <li class="">
                             <div class="collapsible-header"><i class="material-icons">work</i>What do we do?</div>
                             <div class="collapsible-body"><span>We serve people during disaster.
                                    Floods, Cyclone, Earthquake, Femine. </span></div>
@@ -149,7 +154,7 @@
                 </div>
                 <div class="col s6">
                     <ul class="collapsible popout" data-collapsible="popout">
-                        <li class="active">
+                        <li class="">
                             <div class="collapsible-header"><i class="material-icons">person</i>More about us?</div>
                             <div class="collapsible-body"><span>We are an emerging NGO, trying to help people
                                     during disasters.</span></div>
@@ -204,6 +209,9 @@
         var love = document.getElementById('love');
         var request = document.getElementById('request');
         var donate = document.getElementById('donate');
+
+        
+
         request.addEventListener("mouseover",()=>{
             request.style.backgroundColor = "#f15652";
             request.style.color = "#fff";
